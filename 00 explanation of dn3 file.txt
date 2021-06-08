@@ -1,0 +1,61 @@
+dn3 file location
+project name [Step 1: Control Parameters]
+data set name [Step 1: Control Parameters]
+input by name [Step 1: Control Parameters]
+number of materials [Step 1: Control Parameters]
+number of particles [Step 1: Control Parameters]
+erosion rate [Step 1: Control Parameters]
+Smoothing Length Constant [Options - Parameters]
+Velocity Smoothing Coefficient [Options - Parameters]
+Stiffness Coefficient [Options - Parameters]
+Maximum Simulation Time [Step 1: Control Parameters]
+Time Step (simulation) [Step 1: Control Parameters]
+output time interval [Data Output Options - Parameters]
+do you want to output data during the simulation? (1=yes, 0=no) [Data Output Options - Parameters]
+output file folder name location (within "" marks) [Data Output Options - Parameters]
+sliding margin cutoff thickness [Options - Parameters]
+number of timesteps to be run between each screen update [Options - Parameters]
+background image file location (within "" marks) [Tools - incert background image]
+Point1, lower left corner Y-coordinate (pixel number) [Image Scale Point Coordinates]
+Point1, lower left corner Z-coordinate (pixel number) [Image Scale Point Coordinates]
+Point2, upper right corner Y-coordinate (pixel number) [Image Scale Point Coordinates]
+Point2, upper right corner Z-coordinate (pixel number) [Image Scale Point Coordinates]
+Point1 location horizontal axis (if automatic = 0; range = 0 to max pixel horizontal number) [Image Scale Point Coordinates]
+Point1 location vertical axis (if automatic = 0; range = 0 to max pixel vertical number) [Image Scale Point Coordinates]
+Point2 location horizontal axis (if automatic = 0; range = 0 to max pixel horizontal number) [Image Scale Point Coordinates]
+Point2 location vertical axis (if automatic = 0; range = 0 to max pixel vertical number) [Image Scale Point Coordinates]
+set legend max. and min. automatically (#TRUE# or #FALSE#) [Options - Display]
+legend Minimum, Legend Maximum (default: 0,50) [Options - Display]
+Grid Point draw size (default=1)
+Particles locations (parts.txt) output (1=yes, 0=no)
+Nodal thickness (thick.grd) output (1=yes, 0=no)
+Erosion thickness (erode.grd) output (1=yes, 0=no)
+Maximum thickness (maxthick.grd) output (1=yes, 0=no)
+Maximum Velocity (maxvel.grd) output (1=yes, 0=no)
+Nodal x-velocities (velX.grd) output (1=yes, 0=no)
+Nodal y-velocities (velY.grd) output (1=yes, 0=no)
+Nodal z-velocities (velZ.grd) output (1=yes, 0=no)
+Nodal depths (depth.grd) output (1=yes, 0=no)
+Nodal elevations (surf.grd) output (1=yes, 0=no)
+Nodal velocities (vel.grd) output (1=yes, 0=no)
+Nodal discharge (dis.grd) output (1=yes, 0=no)
+Peak nodal discharge (maxdis.grd) output (1=yes, 0=no)
+Path Topography file [step 2: frid file assignment]
+Source Depth file [step 2: frid file assignment]
+Erosion (only placed if material number > 1) [step 2: frid file assignment]
+material name (all) [step 3: material editor]
+unit weight (all) [step 3: material editor]
+material type (1=Frictional, 2=Plastic, 3=Newtonian, 5=Bingham, 8=Voellmy) [step 3: material editor]
+Shear Strength (Plastic, Bingham) [step 3: material editor]
+friction angle (Frictional) [step 3: material editor]
+friction coefficient (Voellmy) [step 3: material editor]
+pore-pressure coeff. Ru (Frictional) [step 3: material editor]
+viscosity (Newtonian, Bingham) [step 3: material editor]
+turbulence coeff. (Voellmy) [step 3: material editor]
+Power Law Exponent (no implemented, default=0) [step 3: material editor]
+internal friction angle (all) [step 3: material editor]
+maximum erosion depth (all) [step 3: material editor]
+(final line is always left as a blank)
+NOTE: line 47:(material name) starts at line 46 if there is only one material
+NOTE: content of 47:(material name) to line 57:(maximum erosion depth repeats) if more than one material
+NOTE: based on following version of DAN3D: Compiled: 01-29-2009, R001 (c) O. Hungr Geotechnical Reserach, 2008 O. Hungr; Use for this program is authorized exclusively for research or teaching purposes at the above Research Institution. Not for professional use. 

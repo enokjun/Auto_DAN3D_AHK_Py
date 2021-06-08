@@ -1,0 +1,43 @@
+Global file location,C:\Users,C:\Users,,C:\Users
+dn3 file name,project1,project2,,project3
+Project Name,project1,project2,,project3
+Data set by,User,User,,User
+Input by,User,User,,User
+No. of Materials,1,2,,1
+No. of Particles,2000,2000,,2000
+Erosion Rate,0.001,0.002,,0.003
+Smoothing Length Constant,4,4,,4
+Velocity Smoothing Coefficient,0,0,,0
+Stiffness Coefficient,200,200,,200
+Slide Margin Cutoff Thickness,0.1,0.1,,0.1
+Maximum Simulation Time,70,70,,70
+Time Step,0.5,0.5,,0.5
+Path Topography,Flowpath_grd,Flowpath_grd,,Flowpath_grd
+Source Depth,Source_grd,Source_grd,,Source_grd
+Erosion Map,Erosion_grd,Erosion_grd,,Erosion_grd
+Output time interval,0.5,0.5,,0.5
+Particles locations (parts.txt) output (1=yes; 0=no),1,1,,1
+Nodal thickness (thick.grd) output (1=yes; 0=no),0,0,,0
+Erosion thickness (erode.grd) output (1=yes; 0=no),0,0,,0
+Maximum thickness (maxthick.grd) output (1=yes; 0=no),0,0,,0
+Maximum Velocity (maxvel.grd) output (1=yes; 0=no),0,0,,0
+Nodal x-velocities (velX.grd) output (1=yes; 0=no),0,0,,0
+Nodal y-velocities (velY.grd) output (1=yes; 0=no),0,0,,0
+Nodal z-velocities (velZ.grd) output (1=yes; 0=no),0,0,,0
+Nodal depths (depth.grd) output (1=yes; 0=no),1,1,,1
+Nodal elevations (surf.grd) output (1=yes; 0=no),0,0,,0
+Nodal velocities (vel.grd) output (1=yes; 0=no),0,0,,0
+Nodal discharge (dis.grd) output (1=yes; 0=no),0,0,,0
+Peak nodal discharge (maxdis.grd) output (1=yes; 0=no),0,0,,0
+Material Name,slope,slope,city,slope
+Material Type (frictional; plastic; newtonian; bingham; voellmy),frictional,frictional,frictional,frictional
+Unit Weight (kN/m^3),18.5,18.5,18.5,18.5
+Shear Strength (kPa),0,0,0,0
+Friction Angle (deg.),22.4,22.4,22.4,22.4
+Pore-pressure Coeff. Ru,0.9,0.6,0.6,0.8
+Viscosity (kPa.s),0,0,0,0
+Friction Coefficient,0,0,0,0
+Turbulence Coefficient (m/s^2),0,0,0,0
+Power Law Exponent,0,0,0,0
+Internal Friction Angle (deg.),22.4,22.4,22.4,22.4
+Maximum Erosion Depth (m),4,4,4,4
