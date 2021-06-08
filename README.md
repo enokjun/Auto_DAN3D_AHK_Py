@@ -26,4 +26,5 @@ File Description:
 
 '04_automate_dan3d_20190604.ahk':   
 	- automate DAN3D analysis   
-	- must have the appropriate button image captured and saved   
+	- must write DAN3D.exe full file location (line 17)    
+	- must have the appropriate button image captured and saved (line 25 and 39)   
