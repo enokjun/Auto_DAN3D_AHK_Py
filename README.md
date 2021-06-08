@@ -24,7 +24,7 @@ File Description:
 '03_dn3_file_names_...xlsx':   
 	- excel file to open for autohotkey automation   
 
-'04_automate_dan3d_20190604.ahk':   
+'04_automate_dan3d.ahk':   
 	- automate DAN3D analysis   
 	- must write DAN3D.exe full file location (line 17)    
 	- must have the appropriate button image captured and saved (line 25 and 39)   
